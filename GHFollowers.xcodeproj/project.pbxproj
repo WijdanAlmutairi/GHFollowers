@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		A8723BD327DD2ED3004F9455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8723BD227DD2ED3004F9455 /* AppDelegate.swift */; };
 		A8723BD527DD2ED3004F9455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8723BD427DD2ED3004F9455 /* SceneDelegate.swift */; };
-		A8723BD727DD2ED3004F9455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8723BD627DD2ED3004F9455 /* ViewController.swift */; };
 		A8723BDC27DD2ED3004F9455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8723BDB27DD2ED3004F9455 /* Assets.xcassets */; };
 		A8723BDF27DD2ED3004F9455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8723BDD27DD2ED3004F9455 /* LaunchScreen.storyboard */; };
+		A89037B62840246300CD0A2C /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89037B52840246300CD0A2C /* SearchVC.swift */; };
+		A89037B8284024F500CD0A2C /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89037B7284024F500CD0A2C /* FavoritesListVC.swift */; };
+		A8F58D342842BCA1005740BE /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F58D332842BCA1005740BE /* GFButton.swift */; };
+		A8F58D362842BFB6005740BE /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F58D352842BFB6005740BE /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A8723BCF27DD2ED3004F9455 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8723BD227DD2ED3004F9455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8723BD427DD2ED3004F9455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8723BD627DD2ED3004F9455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8723BDB27DD2ED3004F9455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8723BDE27DD2ED3004F9455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8723BE027DD2ED3004F9455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89037B52840246300CD0A2C /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		A89037B7284024F500CD0A2C /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		A8F58D332842BCA1005740BE /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		A8F58D352842BFB6005740BE /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				A8723BD227DD2ED3004F9455 /* AppDelegate.swift */,
 				A8723BD427DD2ED3004F9455 /* SceneDelegate.swift */,
-				A8723BD627DD2ED3004F9455 /* ViewController.swift */,
+				A89037B52840246300CD0A2C /* SearchVC.swift */,
+				A89037B7284024F500CD0A2C /* FavoritesListVC.swift */,
+				A8F58D332842BCA1005740BE /* GFButton.swift */,
+				A8F58D352842BFB6005740BE /* GFTextField.swift */,
 				A8723BDB27DD2ED3004F9455 /* Assets.xcassets */,
 				A8723BDD27DD2ED3004F9455 /* LaunchScreen.storyboard */,
 				A8723BE027DD2ED3004F9455 /* Info.plist */,
@@ -134,7 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8723BD727DD2ED3004F9455 /* ViewController.swift in Sources */,
+				A8F58D362842BFB6005740BE /* GFTextField.swift in Sources */,
+				A89037B8284024F500CD0A2C /* FavoritesListVC.swift in Sources */,
+				A8F58D342842BCA1005740BE /* GFButton.swift in Sources */,
+				A89037B62840246300CD0A2C /* SearchVC.swift in Sources */,
 				A8723BD327DD2ED3004F9455 /* AppDelegate.swift in Sources */,
 				A8723BD527DD2ED3004F9455 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,6 +297,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +326,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
