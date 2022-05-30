@@ -23,8 +23,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 // TAB BAR BACKGROUND COLOR HERE. (same as above)
                 appearance.backgroundColor = UIColor.white
                 UINavigationBar.appearance().standardAppearance = appearance
-                //UINavigationBar.appearance().scrollEdgeAppearance
-               // UINavigationBar.appearance().standardAppearance
             }
         
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
